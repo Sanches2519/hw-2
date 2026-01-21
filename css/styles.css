@@ -11,14 +11,20 @@ body {
   font-family: var(--main-font);
   color: var(--main-color-text);
   font-size: 14px;
+  line-height: 100%;
   letter-spacing: 0.03em;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--main-color-title);
 }
 
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
   color: #2196f3;
   text-decoration: none;
 }
@@ -27,17 +33,68 @@ body {
 }
 .header-link {
   font-weight: 500;
-  line-height: 100%;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-color-title);
 }
 .header-link:hover,
-.header-link:focus{
-    color: var(--active-color);
+.header-link:focus {
+  color: var(--active-color);
 }
-.header-nav{
-    color: var(--main-color-text);
+.header-nav {
+  color: var(--main-color-text);
+}
+
+.hero {
+  background-color: var(--main-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--active-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+.features-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-color-title);
+}
+.features-text {
+  line-height: 1.71;
+}
+.team {
+  background-color: var(--secondary-background-color);
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--main-color-title);
+}
+.team-text {
+  font-size: 16px;
+  text-align: center;
 }
 
 .footer {
@@ -45,4 +102,19 @@ body {
 }
 .footer-logo {
   color: #ffffff;
+}
+.address {
+  line-height: 1.71;
+  font-style: normal;
+}
+.address-text {
+  color: #ffffff;
+}
+.address-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--active-color);
 }
