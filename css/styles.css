@@ -28,6 +28,9 @@ body {
   color: #2196f3;
   text-decoration: none;
 }
+.header {
+  background-color: #ececec;
+}
 .header-logo {
   color: #000000;
 }
@@ -117,4 +120,16 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--active-color);
+}
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  color: var(--main-color-title);
+}
+.filters-btn:hover,
+.filters-btn:focus{
+  color: #FFFFFF;
+  background-color: var(--active-color);
 }
