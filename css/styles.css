@@ -63,7 +63,7 @@ body {
 .hero-btn {
   font-family: Roboto;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
   vertical-align: middle;
@@ -129,7 +129,22 @@ body {
   color: var(--main-color-title);
 }
 .filters-btn:hover,
-.filters-btn:focus{
-  color: #FFFFFF;
+.filters-btn:focus {
+  color: #ffffff;
   background-color: var(--active-color);
+}
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color-title);
+}
+.project-text{
+font-size: 16px;
+line-height: 1.87;
+color: var(--main-color-text);
 }
