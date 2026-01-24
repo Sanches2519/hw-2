@@ -14,7 +14,21 @@ body {
   line-height: 100%;
   letter-spacing: 0.03em;
 }
-.list{
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
   list-style: none;
 }
 .title {
@@ -47,6 +61,7 @@ body {
 .header-link:focus {
   color: var(--active-color);
 }
+
 .header-nav {
   color: var(--main-color-text);
 }
@@ -146,8 +161,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-color-title);
 }
-.project-text{
-font-size: 16px;
-line-height: 1.87;
-color: var(--main-color-text);
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-color-text);
 }
